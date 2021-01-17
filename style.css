@@ -218,11 +218,10 @@ a {
   text-decoration: none;
 }
 
-footer {
+h1 {
   text-align: center;
   margin-bottom: 75px;
-}
-
-h1 {
-  font-size: 50px;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
 }
