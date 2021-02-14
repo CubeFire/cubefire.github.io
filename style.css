@@ -233,11 +233,3 @@ h3 {
     line-height: 1px;
     text-align: center;
 }
-
-a{ 
-position: absolute;
-top: 0px,
-left: 50%;
-transform: translateX(-50%);
-  
-}
