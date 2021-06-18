@@ -46,3 +46,25 @@ h3 {
     line-height: 15px;
     text-align: center;
 }
+
+* { margin:0; padding:0; } 
+html, body, #wrap { height: 100%; }
+body > #wrap {height: auto; min-height: 100%;}
+#main { padding-bottom: 180px; }
+
+#footer {
+    position: relative;
+    background-color:black;
+    margin-top: -180px;
+    height: 180px;
+    clear:both;}
+ 
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+
+.clearfix {display: inline-block;}
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
