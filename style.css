@@ -570,10 +570,6 @@ footer {
   cursor: pointer;
 }
 
-:root {
-  --pink: #ff4081;
-}
-
 body {
   font-family: Lato, sans-serif;
   margin: 0;
