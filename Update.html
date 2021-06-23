@@ -1,93 +1,42 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script defer src="theme.js"></script>
-  <link rel="stylesheet" href="style.css" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-    rel="stylesheet"
-  />
-    <style>
-    body {
-background-color:#333;
-text-align: center;
-color:#fff;
-padding-top:10em; 
+  <link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/856648202781327382/856927864725307432/avatars-rypbyXQyQnMoZpNa-OL6Rzw-t500x500_1.jpg"/>
+<html lang="en">
+<title>Mixo | HomePage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+	
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-* { color:#fff; text-decoration: none;}
-    
-    </style>
-</head> 
+</style>
 <body>
-
-<h1>
-<a href=# class="typewrite" data-period="2000" data-type='[ "Hi! This is a test message." ]'>
-<span class="wrap"></span>
-</a>
-</h1>
-    <script>
-    
-    var TxtType = function(el, toRotate, period) {
-this.toRotate = toRotate;
-this.el = el;
-this.loopNum = 0;
-this.period = parseInt(period, 10) || 2000;
-this.txt = '';
-this.tick();
-this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-var i = this.loopNum % this.toRotate.length;
-var fullTxt = this.toRotate[i];
-
-if (this.isDeleting) {
-this.txt = fullTxt.substring(0, this.txt.length - 1);
-} else {
-this.txt = fullTxt.substring(0, this.txt.length + 1);
-}
-
-this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-var that = this;
-var delta = 200 - Math.random() * 100;
-
-if (this.isDeleting) { delta /= 2; }
-
-if (!this.isDeleting && this.txt === fullTxt) {
-delta = this.period;
-this.isDeleting = true;
-} else if (this.isDeleting && this.txt === '') {
-this.isDeleting = false;
-this.loopNum++;
-delta = 500;
-}
-
-setTimeout(function() {
-that.tick();
-}, delta);
-};
-
-window.onload = function() {
-var elements = document.getElementsByClassName('typewrite');
-for (var i=0; i<elements.length; i++) {
-var toRotate = elements[i].getAttribute('data-type');
-var period = elements[i].getAttribute('data-period');
-if (toRotate) {
-new TxtType(elements[i], JSON.parse(toRotate), period);
-}
-}
-// INJECT CSS
-var css = document.createElement("style");
-css.type = "text/css";
-css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-document.body.appendChild(css);
-}; 
-    </script>
-    
+	
+        <link rel="stylesheet" href="style.css">
+        <script>
+	      var scroll = new SmoothScroll('a[href*="#"]');
+        </script>   
+        <b id="menu"></b>  
+        </head>
+        <body class="animate-in">
+        <div class="bg">  
+        <div class="jumbotron">
+        <h1 class="display-4 mainTitle">Mixo Bot</h1>
+        <p class="lead"><mark  style="border-radius:12px; background-color:rgb(33,33,33,0);color:white; padding:0px 0px">Improve your server with Mixo Moderation, Fun 100+ Commands many more Features!</mark></p>
+        <button class="btn" onclick="location.href = 'https://discord.gg/AqKBmQXZ7P';"><i class="fab fa-discord" style="padding:0px 5px"></i>Support My Server!</button>
+        <button class="btn" onclick="location.href = 'https://discord.com/oauth2/authorize?client_id=841478858418028544&permissions=805694528&scope=bot%20applications.commands';"><i class="fas fa-robot" style="padding:0px 5px"></i>Invite me!</button>
+        </div>
+			<center><hr width="50%"
+		size="20" color="blue"
+		noshade></center>
+</div>
+<h2>Mixo Bot!</h2>
+<h2>There are alot of modules in mixo to Moderation to Nsfw anythings possible with Mixo!</h2>
+<center><img src="https://cdn.discordapp.com/attachments/844688647445151778/856522064772857866/mixo.PNG" alt="Mixo" width="250" height="345"> </center>
 </body>
 </html>
