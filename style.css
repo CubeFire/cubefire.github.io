@@ -136,7 +136,7 @@ h3 {
 }
 .btn{
   background-color: transparent;
-  border: 2px solid #c04beb;
+  border: 2px solid #f04f54;
   border-radius: 20px;
   color: white;
   width:250;
@@ -149,14 +149,14 @@ h3 {
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #c04beb;
+  background-color: #f04f54;
   color:white;
 }
 .btnm{
   background-color: rgba(100, 100, 100, 0);
   border-radius: 4px;
-  border: 2px solid #c04beb;
-  color: #c04beb;
+  border: 2px solid #f04f54;
+  color: #f04f54;
   width:200;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-size: 15px;
@@ -260,12 +260,12 @@ p {
 }
 
 .navbar {
-    border-bottom: 2px solid #c04beb;
+    border-bottom: 2px solid #f04f54;
     background-color: #1e1d26 !important;
 }
 
 hr.rounded {
-  border-top: 2px solid #c04beb;
+  border-top: 2px solid #f04f54;
   border-radius: 5px;
   width:90%;
   margin: auto;
@@ -295,13 +295,13 @@ footer {
 .table-title {
     font-size: 25px;
     font-weight: 600;
-    color: #c04beb;
+    color: #f04f54;
     font-family: Rubik, sans-serif;
 }
 .table-tex {
     font-size: 18px;
     font-weight: 0;
-    color: #c04beb;
+    color: #f04f54;
     font-family: Rubik, sans-serif;
     margin:auto
 }
